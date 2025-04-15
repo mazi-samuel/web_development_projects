@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlay Images</title>
+    <style>
+        .image-container {
+            position: relative;
+            width: 400px; /* Adjust as needed */
+        }
+
+        .main-image {
+            width: 100%;
+            display: block;
+        }
+
+        .download-buttons {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px; /* Space between buttons */
+        }
+
+        .download-buttons img {
+            width: 120px; /* Adjust as needed */
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="background-image.jpg" alt="Main Image" class="main-image">
+        
+        <div class="download-buttons">
+            <a href="https://play.google.com" target="_blank">
+                <img src="google-play.png" alt="Google Play">
+            </a>
+            <a href="https://www.apple.com/app-store/" target="_blank">
+                <img src="app-store.png" alt="App Store">
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
