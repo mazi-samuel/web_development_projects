@@ -9,20 +9,20 @@
     /* My colours for white: #f0d9b5, black: #b58863 */
 
     .container {
+      width: 800px;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      gap: 0px;
+      grid-template-columns: repeat(8, 1fr);
+      grid-template-rows: repeat(8, 1fr);
     }
     .white {
-      height: 50px;
-      width: 50px;
-      background-color: brown;
+      height: 100px;
+      width: 100px;
+      background-color: #f0d9b5;
     }
     .black {
-      height: 50px;
-      width: 50px;
-      background-color: black;
+      height: 100px;
+      width: 100px;
+      background-color: #b58863;
     }
   </style>
 </head>
